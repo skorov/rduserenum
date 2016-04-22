@@ -3,6 +3,7 @@ Script to enumerate usernames through RDP screenshots.
 ## Requirements ##
 * EyeWitness - https://github.com/ChrisTruncer/EyeWitness
 * Tesseract - https://github.com/tesseract-ocr/tesseract
+* Nmap
 
 ## Usage ##
 ```
