@@ -21,7 +21,7 @@ print("Running nmap...")
 os.system('nmap -p3389 -sS -oX %s/nmap.xml %s' % (tmpDir,subnets))
 
 print("Getting screenshots from RDP...")
-os.system('echo n | python /opt/EyeWitness/EyeWitness.py --rdp -f %s/nmap.xml -d %s/raw' % (tmpDir, tmpDir))
+os.system('echo n | python /opt/eyewitness-git/EyeWitness.py --rdp -f %s/nmap.xml -d %s/raw' % (tmpDir, tmpDir))
 print()
 
 print("Making images clearer for OCR...")
