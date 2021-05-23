@@ -1,3 +1,7 @@
+# End of Support
+
+I have stopped supporting this repo as of 23rd May 2021. There are better tools out there, such as [GoWitness](https://github.com/sensepost/gowitness) if you're looking for an alternative.
+
 # rduserenum
 Script to enumerate usernames through RDP screenshots.
 ## Requirements ##
